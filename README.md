@@ -55,22 +55,7 @@
 - Python 3.10+
 - ~2 GB RAM для AI-модели
 
----
-
-## Установка
-
-```bash
-git clone https://github.com/Dyrachek/MiniEDR.git
-cd MiniEDR
-pip install -r requirements.txt
-
-**python download_model.py**
-
----
-
-
-
-**Структура**
+##Структура
 MiniEDR/
 ├── main.py
 ├── start.bat
@@ -88,10 +73,27 @@ MiniEDR/
 
 
 
-**Технологии**
+##Технологии
 
 Python 3
 Flet — UI
 psutil — процессы и сеть
 llama-cpp-python — локальный инференс
 winreg — автозагрузка и автозапуск
+
+
+---
+
+## Установка
+
+```bash
+git clone https://github.com/Dyrachek/MiniEDR.git
+cd MiniEDR
+pip install -r requirements.txt
+
+**python download_model.py**
+
+---
+
+
+
