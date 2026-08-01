@@ -55,23 +55,6 @@
 - Python 3.10+
 - ~2 GB RAM для AI-модели
 
-##Структура
-MiniEDR/
-├── main.py
-├── start.bat
-├── requirements.txt
-├── download_model.py
-├── assets/
-│   └── Картинка
-├── core/
-│   ├── monitor.py        # внутрянка
-│   └── ai_assistant.py   # SLM
-├── ui/
-│   └── app.py            # интерфейс
-└── models/
-    └── *.gguf
-
-
 
 ##Технологии
 
